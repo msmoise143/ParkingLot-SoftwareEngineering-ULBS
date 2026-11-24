@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a41361-3fc6-4494-bed1-935c1b66d8d4" name="Changes" comment="Connected to the database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/CarDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/common/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/UsersBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="55a41361-3fc6-4494-bed1-935c1b66d8d4" name="Changes" comment="Created the EJB">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/EditCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/form-validation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +31,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
-        <option value="Servlet" />
         <option value="Class" />
+        <option value="JavaScript File" />
+        <option value="Servlet" />
+        <option value="Jsp File" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -226,7 +228,8 @@
     <MESSAGE value="24.10.2026 Finished 2.3" />
     <MESSAGE value="Created the entities" />
     <MESSAGE value="Connected to the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected to the database" />
+    <MESSAGE value="Created the EJB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the EJB" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
