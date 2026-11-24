@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55a41361-3fc6-4494-bed1-935c1b66d8d4" name="Changes" comment="Created the EJB">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/EditCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addCar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/editCar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/form-validation.js" afterDir="false" />
+    <list default="true" id="55a41361-3fc6-4494-bed1-935c1b66d8d4" name="Changes" comment="CRUD for cars">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/entities/UserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parking/parkinglot/ejb/CarsBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlets/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/Cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/cars.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/pageTemplate.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +32,8 @@
       <list>
         <option value="Class" />
         <option value="JavaScript File" />
-        <option value="Servlet" />
         <option value="Jsp File" />
+        <option value="Servlet" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -229,7 +228,8 @@
     <MESSAGE value="Created the entities" />
     <MESSAGE value="Connected to the database" />
     <MESSAGE value="Created the EJB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the EJB" />
+    <MESSAGE value="CRUD for cars" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD for cars" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
